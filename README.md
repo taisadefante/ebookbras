@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 📖 Projeto: Página de Vendas de E-book
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Descrição
+Este projeto consiste em uma **landing page moderna e responsiva** para a venda de um e-book digital. A página foi projetada para **maximizar conversões** e proporcionar uma experiência fluida ao usuário, com integração ao **checkout Kiwify** para um processo de compra seguro.
 
-## Available Scripts
+## 🎯 Funcionalidades
+✅ **Seção Hero** com chamada para ação destacada  
+✅ **Benefícios** bem estruturados para aumentar o interesse  
+✅ **Depoimentos** de clientes para gerar credibilidade  
+✅ **Tabela de preços** clara e objetiva, com desconto promocional  
+✅ **Botão de WhatsApp** para suporte direto  
+✅ **Integração com checkout Kiwify** para pagamento seguro  
+✅ **100% Responsivo** para dispositivos móveis e desktop  
 
-In the project directory, you can run:
+## 🛠 Tecnologias Utilizadas
+- **React.js** → Interface dinâmica e moderna  
+- **Bootstrap** → Estilização responsiva  
+- **Vercel** → Hospedagem rápida e eficiente  
+- **API do WhatsApp** → Atendimento direto ao cliente  
 
-### `npm start`
+## 📌 Estrutura do Projeto
+```
+📂 ebook-sales-page
+│── 📂 src
+│   ├── 📂 components
+│   │   ├── HeroSection.js
+│   │   ├── BenefitsSection.js
+│   │   ├── TestimonialsSection.js
+│   │   ├── PricingSection.js
+│   │   ├── FAQSection.js
+│   │   ├── CallToAction.js
+│   │   ├── Contact.js
+│   │   ├── Footer.js
+│   ├── 📂 pages
+│   │   ├── EbookSalePage.js
+│   ├── App.js
+│── 📂 public
+│── 📂 assets
+│── package.json
+│── README.md
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Instalação e Execução
+1️⃣ Clone o repositório:
+```sh
+  git clone https://github.com/seuusuario/ebook-sales-page.git
+```
+2️⃣ Acesse a pasta do projeto:
+```sh
+  cd ebook-sales-page
+```
+3️⃣ Instale as dependências:
+```sh
+  npm install
+```
+4️⃣ Execute o projeto:
+```sh
+  npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Deploy
+O projeto está hospedado na **Vercel**. Para fazer o deploy, siga os passos:
+1️⃣ Instale o Vercel CLI (caso não tenha):
+```sh
+  npm install -g vercel
+```
+2️⃣ Execute o comando para iniciar o deploy:
+```sh
+  vercel
+```
 
-### `npm test`
+## 🔥 Demonstração
+🔗 **Acesse o projeto em produção:** [https://seulink.vercel.app](https://seulink.vercel.app)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤝 Contribuição
+Se quiser contribuir com melhorias no projeto:
+1️⃣ Faça um **fork** do repositório  
+2️⃣ Crie uma **branch** para sua feature:
+```sh
+  git checkout -b minha-feature
+```
+3️⃣ Adicione suas alterações e faça um **commit**:
+```sh
+  git commit -m "Adicionando nova funcionalidade"
+```
+4️⃣ Envie para o repositório remoto:
+```sh
+  git push origin minha-feature
+```
+5️⃣ Abra um **Pull Request** 🚀
 
-### `npm run build`
+## 📄 Licença
+Este projeto está sob a licença **MIT**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Autor
+👤 Tais Defante 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
